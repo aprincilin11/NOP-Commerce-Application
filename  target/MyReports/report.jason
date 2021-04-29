@@ -1,0 +1,304 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-12T07:05:00.235Z",
+        "line": 4,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6330537700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2996300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.takeScreenShot()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User is already on Login page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_already_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7007800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.takeScreenShot()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "Title of login page is Free CRM",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.title_of_login_page_is_free_crm()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2291305000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.takeScreenShot()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User enters username and password",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50810500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.takeScreenShot()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1001100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.takeScreenShot()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User is on homepage",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_on_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-12T07:05:09.283Z",
+        "line": 13,
+        "name": "Free CRM name display Test",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-name-display-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7851900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.takeScreenShot()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User is already on homepage",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_already_on_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 551625300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.takeScreenShot()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User checks on the name has displayed or not",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_checks_on_the_name_has_displayed_or_not()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1001800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 298343400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.takeScreenShot()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User quit the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_quit_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "myHooks.LoginHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM login feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": []
+  }
+]
