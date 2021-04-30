@@ -37,6 +37,8 @@ public class LoginHooks {
         System.out.println("Take screen shot before each step ");
     }
 
+
+
     @AfterStep
     public void refresh(){
         System.out.println("Refresh the page after each step");
