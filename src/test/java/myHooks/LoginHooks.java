@@ -8,6 +8,8 @@ import org.junit.Before;
 
 public class LoginHooks {
 
+    
+
     @Before//(order = 1) //1. order execution will be in ascending order.
     // 2. instead of order we can give the @smoke here to execute this methods for the particular scenario, since we mentioned in
     // feature file that the @smoke where the scenario is, as well as we need to mention in test runner class also
